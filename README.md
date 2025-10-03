@@ -27,8 +27,13 @@ work
 - For better graphics , use `magic -d XR -T ~/work/sky130A.tech` to start _magic_
 - If you are able to succesfully completed the steps then you are all set for designing layouts using the SKY130 technology.
 
-# Quick Steps
-  
+# Quick Guide
+- After opening _magic_ go to command window and set the grid. `grid 50nm 50nm`
+- You can also set the grid from **Window** dialog box  
+  <img width="1451" height="841" alt="Screenshot 2025-10-04 002716" src="https://github.com/user-attachments/assets/7d6c9e4f-6826-4aa5-b69a-31564ebc8fb3" />  
+- After setting grid , write `snap user` in the command window
+- 
+
 
 
 
