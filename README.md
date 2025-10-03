@@ -38,8 +38,9 @@ work
 - You can check current DRC by `drc style` in the command window
 - To set _DRC full_ go to **DRC** dialog box and set **DRC Complete**
   <img width="1448" height="841" alt="Screenshot 2025-10-04 005505" src="https://github.com/user-attachments/assets/a1b65e94-774e-4324-bc34-7e385b833aa2" />
-- To check _DRC Error_ , select the top cell , use `drc why` in the command window
-- To know the _DRC Error_ , select the top cell , use `drc find` in the command window 
+- To check _DRC Error_
+  use `select the top cell` in the command window or you can select by cursor , then use `drc why` in the command window  
+- To find the _DRC Error_ , use `select the top cell` then `drc find` in the command window    
 
 
   
