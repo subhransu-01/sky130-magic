@@ -25,7 +25,9 @@ work
   ```
 - 💻 `magic -T ~/work/sky130A.tech` or `magic -d XR -T ~/work/sky130A.tech` to start _magic_ 
 - For better graphics , use `magic -d XR -T ~/work/sky130A.tech` to start _magic_
-- If you are able to succesfully comppleted the steps then you are all set for creating layouts using the SKY130 technology.
+- If you are able to succesfully completed the steps then you are all set for designing layouts using the SKY130 technology.
+
+# Quick Steps
   
 
 
