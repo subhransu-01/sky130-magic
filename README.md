@@ -78,8 +78,8 @@ work
 - `gds write` , to create gds file
 - To check _property_ , `select top cell` then use `property`  
 
-
-
+# Reference
+[Magic Main](http://opencircuitdesign.com/magic/)
 
 
 
