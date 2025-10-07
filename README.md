@@ -85,5 +85,4 @@ work
 [Cheat Sheet ](cheat_sheet/Magic_rules_and_short_keys.pdf)  
 [Cheat Key](cheat_sheet/cheatsheet_magic.md)  
 [Inverter using SKY130](docs/13_magic_inverter_sky130.pdf)  
-
-
+[SKY130 PDK Document](docs/skywater-pdk-readthedocs-io-en-main.pdf)  
