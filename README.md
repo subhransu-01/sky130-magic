@@ -78,9 +78,9 @@ work
 - `gds write` , to create gds file
 - To check _property_ , `select top cell` then use `property`  
 
-# Reference
-[Magic Main](http://opencircuitdesign.com/magic/)
-
-
+# Some Reference  
+[Magic Main](http://opencircuitdesign.com/magic/)  
+[Quick Video by Dr. Saroj Rout](https://zoom.us/rec/share/9V1J33K5uY3kdc-3f6E3hHuCJ5psEw2-oJVwWLmwV7fcyYT1D3wFZFRP8xs8eCTn.rlaLXq7Upm_xbXgo)  
+[Magic Video by Matt Venn](https://www.youtube.com/watch?v=IQ_DcWT_cbc)  
 
 
