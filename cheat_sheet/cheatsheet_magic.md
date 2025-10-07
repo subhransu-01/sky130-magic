@@ -15,4 +15,5 @@
 - **u** - undo
 - **U** - redo
 - **b** - cell box details
-- 
+- **i** - select active region
+- **what** - layers details
