@@ -34,16 +34,48 @@ work
 - After setting the grid , write `snap user` in the command window
 - Turn on **Crosshair** from **Options** dialog box (Optional)
   <img width="1452" height="842" alt="Screenshot 2025-10-04 003638" src="https://github.com/user-attachments/assets/46006554-3f20-4f89-8ef9-5c2c9bbfa63a" />
+- # Label & Port  
+- Select the area you want to label or make port  
+- Use the given command  
+  `label [name]`  
+  `port make`   
+  `port index [value]`  
+  <img width="1919" height="1015" alt="Screenshot 2025-10-07 202421" src="https://github.com/user-attachments/assets/e9e46585-401e-4a4f-baa4-e4e79ae0a170" />  
+- You set this from **Edit** dialog box , there is a option **Text...**    
+  <img width="1919" height="1011" alt="Screenshot 2025-10-07 203443" src="https://github.com/user-attachments/assets/2c023ed7-eec6-4eb6-a9a0-5572ca1d4c42" />    
+- Enter name in **Text string** to _label_ the selected area  
+- You can adjust text size in **Size**  
+- To make port , use **enable** option in **Port** and enter **[value]** to give _port number_  
+- Use **Attach to layer** option for attaching port with the layer (eg. metal1) or use **default**  
+- To check _port number_ select the port area , then use `port index`  
+  <img width="1919" height="1013" alt="Screenshot 2025-10-07 202742" src="https://github.com/user-attachments/assets/36efce6e-10d8-4ded-9c8a-2cbcc14e4542" />  
+
 - # DRC
 - You can check current DRC by `drc style` in the command window
 - To set _DRC full_ go to **DRC** dialog box and set **DRC Complete**
   <img width="1448" height="841" alt="Screenshot 2025-10-04 005505" src="https://github.com/user-attachments/assets/a1b65e94-774e-4324-bc34-7e385b833aa2" />
 - To check _DRC Error_
   use `select top cell` in the command window or you can select by cursor , then use `drc why` in the command window  
-- To find the _DRC Error_ , use `select top cell` then `drc find` in the command window    
-
-
-  
+- To find the _DRC Error_ , use `select top cell` then `drc find` in the command window
+- # PEX  
+- For parasitic extraction use  
+  `extract all`  
+  `ext2spice hierarchy on` (eg. for top level keep **on** , for flatten **off** )  
+  `ext2spice scale off`  
+  `ext2spice cthresh [value]` (eg. ext2spice cthresh 100f)  
+  `ext2spice rthresh [value]` (eg. ext2spice rthresh 100u)  
+  `ext2spice`  
+- # LEF & GDS
+- To set the prboundary box , select area where you want the bounding box to be and use  
+- `box value` to get the value (eg. 0 0 60 100)  
+- `property FIXED_BBOX [box values]` (eg. property FIXED_BBOX "0 0 60 100")  
+- `select top cell`  
+- `property LEFclass CORE`  
+- `property LEFsymmetry "X Y"`  
+- `property LEFsite [library name]`  
+- `lef write` , to create lef file  
+- `gds write` , to create gds file
+- To check _property_ , `select top cell` then use `property`  
 
 
 
