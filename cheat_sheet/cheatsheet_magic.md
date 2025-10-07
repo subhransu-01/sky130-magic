@@ -8,8 +8,8 @@
 - **v** - fit layout in the middle
 - **z** - zoom in
 - **shift+z** - zoom out
-- **f** - flip horizontal
-- **shift+f** - flip vertical
+- **f** - flip horizontally
+- **shift+f** - flip vertically
 - **s** - select topmost cell
 - **a** - select all layers
 - **u** - undo
