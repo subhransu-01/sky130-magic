@@ -7,13 +7,13 @@
 - **paint [layer name]** - to paint layer (eg. paint nwell)
 - **v** - fit layout in the middle
 - **z** - zoom in
-- **Z** - zoom out
+- **shift+z** - zoom out
 - **f** - flip horizontal
-- **F** - flip vertical
+- **shift+f** - flip vertical
 - **s** - select topmost cell
 - **a** - select all layers
 - **u** - undo
-- **U** - redo
+- **shift+u** - redo
 - **b** - cell box details
 - **i** - select active region
 - **what** - layers details
